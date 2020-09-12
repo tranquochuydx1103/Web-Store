@@ -1,0 +1,62 @@
+.modal-content {
+	background: white;
+	padding: 40px;
+	max-width: 600px;
+	margin: 40px auto;
+	border-radius: 4px;
+	box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+.tab-group {
+	list-style: none;
+	padding: 0;
+}
+.tab-group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.tab-group li a {
+	display: block;
+	text-decoration: none;
+	padding: 15px;
+	background: rgba(160, 179, 176, 0.25);
+	color: #a0b3b0;
+	font-size: 20px;
+	float: left;
+	width: 50%;
+	text-align: center;
+	cursor: pointer;
+	transition: .5s ease;
+}
+.tab-group li a:hover {
+	background: #179b77;
+	color: #ffffff;
+}
+.tab-group .active a {
+	background: #1ab188;
+	color: #ffffff;
+}
+.tab-content > div:last-child {
+	display: none;
+}
+h1 {
+	text-align: center;
+	font-weight: 300;
+	margin: 0 0 40px;
+}
+#btnSubmitSignUp, #btnSubmitLogin {
+	background: #1ab188;
+}
+#btnSubmitSignUp:hover, #btnSubmitLogin:hover {
+	background: #179b77;
+	color: #ffffff;
+}
+.accepted {
+	border: 1px solid lawngreen;
+}
+.er {
+	border: 1px solid #ff0000;
+}
+.none {
+	border: 1px solid gainsboro;
+}
